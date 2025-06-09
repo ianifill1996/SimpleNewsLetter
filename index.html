@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="Author" content="Ian Ifill" />
+    <title>Form List</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <h1>Welcome to my News Letter !!!</h1>
+    <main>
+      <h2>Come get your weekly news here. All things New and Interesting</h2>
+      <section>
+        Sign Up here Please !
+        <form action="#" method="POST">
+          <fieldset>
+            <legend>
+              <label for="name">Your Name:</label>
+            </legend>
+            <input type="text" id="name" name="name" required />
+          </fieldset>
+          <fieldset>
+            <legend>
+              <label for="Birthday">Date of Birth:</label>
+            </legend>
+            <input type="date" id="birthday" name="birthday" required />
+          </fieldset>
+          <fieldset>
+            <legend>
+              <label for="email">Email:</label>
+            </legend>
+            <input type="email" id="email" name="email" required />
+          </fieldset>
+          <fieldset>
+            <legend>
+              <label for="phonenumber">PhoneNumber:</label>
+            </legend>
+            <input type="number" id="number" name="number" required />
+          </fieldset>
+          <fieldset>
+            <legend>Message Info</legend>
+
+            <label for="subject">Subject:</label>
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              required
+            /><br /><br />
+
+            <label for="message">Message:</label><br />
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </fieldset>
+
+          <button
+		  input type="submit">
+		  Submit
+          </button>
+        </form>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
